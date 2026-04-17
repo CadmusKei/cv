@@ -1,10 +1,10 @@
 
 
 
-export default function Link({children, className}) {
+export default function Link({children}) {
     return (
-        <a href="https://kei-dev.space" className="font-mono text-xs text-green-700">
-            kei-dev.space
+        <a href="https://kei-dev.space" className="font-mono text-xs text-green-500">
+            {children}
         </a>
     );
 }
