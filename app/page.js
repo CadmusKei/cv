@@ -1,8 +1,9 @@
-
+import GridBackground from "@/components/GridBackground";
 
 export default function Home() {
   return (
-    <div className="min-h-screen w-full cv-background">
-    </div>
+    <GridBackground cols={5} rows={3}>
+      
+    </GridBackground>
   );
 }

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .cv-background {
-  background-color: #ffffff;
+  background-color: #eaeaea;
   background-image:
     linear-gradient(#b0b7c3 1px, transparent 1px),
     linear-gradient(90deg, #b0b7c3 1px, transparent 1px),
