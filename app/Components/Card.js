@@ -1,6 +1,12 @@
 
-export default function Card({width, height}) {
-        return (
-            <div className={`${width} ${height} bg-black/20`}> </div>
-        ) 
+export default function Card({ width, height, children }) {
+  return (
+    <div
+      className={`${width} ${height} flex flex-col p-3
+      rounded-lg border
+       border-black `}
+    >
+      {children}
+    </div>
+  );
 }
