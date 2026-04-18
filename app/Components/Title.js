@@ -1,7 +1,7 @@
 
 
-export default function Title({children}) {
+export default function Title({children, size}) {
     return (
-        <p className=" text-black font-mono font-bold" >{children}</p>
+        <p className={` text-black font-mono font-bold `} >{children}</p>
     );
 }
